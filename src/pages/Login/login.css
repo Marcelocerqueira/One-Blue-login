@@ -1,0 +1,131 @@
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.login-img img {
+  width: 300px;
+  height: 300px;
+  margin-left: 50px;
+}
+
+.grup-input{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+.login-right h1 {
+  font-family: 'Roboto';
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 28px;
+  
+}
+
+.loginInput {
+  display: flex;
+  align-items: center;
+  color: rgb(128, 128, 128);
+  background-color: #1a1c1d;
+  border-radius: 5px;
+  padding: 3px;
+  width: 98%;
+  height: 50px;
+
+
+
+  }
+
+  .loginInput input{
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .loginInput svg{
+    margin-left: 10px;  
+    font-size: 25px;
+  }
+
+
+
+.login-loginInputEmail input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: #f1f1f6;
+  border: none;
+  font-size: 17px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.login-loginInputPassword {
+  display: flex;
+  align-items: center;
+  color: gray;
+  background-color: #1a1d1d;
+  border-radius: 3px;
+  padding: 3px;
+  margin: 5px;
+  width: 100%;
+  height: 50px;
+
+}
+.login-loginInputPassword svg {
+  margin-left: 10px;  
+  font-size: 25px;
+}
+
+.login-loginInputPassword input {
+  background: transparent;
+  width: 100%;
+  outline-width: 0;
+  color: #f1f1f6;
+  border-radius: 3px;
+  border: none;
+  font-size: 18px;
+  margin-left: 12px;
+  margin-right: 10px;
+}
+
+.login-right button {
+  width: 100%;
+  background-color: #1D93D1;
+  color: #e5ebf0;
+  font-size: 18px;
+  font-weight: 800;
+  height: 50px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.text-h4 {
+  text-align-last: center;
+  margin-top: 25px;
+}
+.conta{
+  text-align-last: center;
+  margin-top: 50px;
+  color: #07344d;
+}
+.conta svg {
+  margin-left: 12px;
+  margin-right: 12px;
+  padding-bottom: -20px ;
+}
+
+
+
