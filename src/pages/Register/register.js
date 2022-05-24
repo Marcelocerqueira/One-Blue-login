@@ -6,7 +6,7 @@ import { useFormik } from 'formik';
 import { ImUser } from "react-icons/im";
 
 
-import { MdLock, MdLogin } from "react-icons/md"
+import { MdLock } from "react-icons/md"
 import api from "../../services/api";
 
 export function Register() {

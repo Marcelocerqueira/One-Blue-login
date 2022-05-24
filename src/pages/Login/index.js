@@ -9,6 +9,7 @@ import { MdLock, MdLogin } from "react-icons/md"
 import api from "../../services/api";
 
 export function Login() {
+  
 
   const formik = useFormik({
     initialValues: {
@@ -61,26 +62,25 @@ export function Login() {
           <Link to="/Home">
           <Button onClick={() => {
             formik.handleSubmit()
-          }}>Entrar</Button>
+            
+          }
+          }>Entrar</Button>
+          
           </Link>
+          
         </div>
+        
         <div className="text-h4">
           <h4>Esqueci minha senha</h4>
         </div>
       
         <div className="conta">
-        <Link  to="/Register" >
-          
-          <MdLogin />
-          
+        <Link  to="/Register" >          
+          <MdLogin />         
           Criar conta
         </Link>
         </div>
-
-
       </div>
-
-
     </div>
   )
 }
