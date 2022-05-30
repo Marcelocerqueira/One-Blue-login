@@ -54,13 +54,13 @@ export function Register() {
               value={formik.values.password}
             />
           </div>
-          <Link to="/">
+          
           <Button onClick={() => {
             formik.handleSubmit()
-            alert('Usuário Cried com successors')
+            alert('Usuário Criado com successors')
           }}>Enviar</Button>
           
-          </Link>
+         
         </div>
 
       </div>

@@ -64,11 +64,12 @@ export function Login() {
           <h4>Esqueci minha senha</h4>
         </div>
 
-        <div className="conta"><Link
-          to="/Register">
-          <MdLogin />
-          Criar conta
-        </Link>
+        <div className="conta">
+          <Link
+              to="/Register">
+              <MdLogin />
+              Criar conta
+          </Link>
         </div>
       </div>
     </div>
